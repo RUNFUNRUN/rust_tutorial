@@ -9,6 +9,9 @@
 mod error_handling;
 mod unit_test;
 
+// いらなくなった
+// extern crate rust_lib_demo;
+
 fn main() {
     // println!("Hello, world!");
     // vars::run();
@@ -22,4 +25,5 @@ fn main() {
     error_handling::run();
     // vars::sub_a::func_a();
     // vars::sub_b::func_b();
+    rust_lib_demo::print_random_number();
 }
