@@ -6,6 +6,7 @@
 // mod structs;
 // mod enums;
 // mod traits;
+mod debug;
 mod error_handling;
 mod unit_test;
 
@@ -26,4 +27,5 @@ fn main() {
     // vars::sub_a::func_a();
     // vars::sub_b::func_b();
     rust_lib_demo::print_random_number();
+    debug::run();
 }
